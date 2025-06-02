@@ -1,0 +1,10 @@
+(1. hello word. emacs
+(2. hello word. vim
+(3. hello word. emacs
+
+
+augroup messages
+au!
+augroup END
+
+autocmd messages BufWrite * echom "write..."
